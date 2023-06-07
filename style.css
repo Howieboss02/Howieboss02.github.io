@@ -24,11 +24,18 @@ h2 {
     color: lightseagreen;
 }
 
-.text{
+.text {
     color: white;
-    font-size:20px;
-    margin-left:65px;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
     margin-top: 30px;
+}
+
+.source {
+    color: white;
+    font-size: 10px;
 }
 
 hr.new4 {
@@ -99,19 +106,56 @@ th {
     height: 350px;
     width: 500px;
     border-radius: 1vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 .margines{
     margin-top: 145px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    text-align: center;
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.flex-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
 @media screen and (max-width: 500px) {
     .header {
         flex-direction: column;
     }
-
-        .header a {
-            margin: 5px 0;
-        }
+    .header a {
+        margin: 5px 0;
+    }
 
     .header-right {
         margin-top: 10px;
